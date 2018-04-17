@@ -1,0 +1,901 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Great+Vibes|Orbitron|Russo+One|Krona+One|Open+Sans+Condensed:300|Ubuntu+Condensed|IBM+Plex+Mono');
+@font-face {
+  font-family: moon;
+  src: url(../font/Moon.otf);
+
+
+}
+@font-face {
+  font-family: quesha;
+  src: url(../font/Quesha.ttf);
+}
+
+
+/*Global*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.cont{
+  margin-left: 80%;
+}
+body{
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+::selection{
+  background-color:#E87E04;
+  color: #fff;
+}
+
+
+/*Header*/
+header{
+  width: 100%;
+  height:699px;
+  background: url(../img/beauty-kuta-bali.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 0%;
+
+}
+
+nav{
+  width: 100%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  position:fixed;
+  z-index: 999;
+  box-sizing: border-box;
+  transition: all 0.9s;
+
+}
+
+#logo{
+  display: block;
+  margin-left: 20px;
+  width:50px;
+  height: 50px;
+  position: absolute;
+  top: 5%;
+  left: 40px;
+
+}
+
+ #logo img{
+   height: 90px;
+   transition: all 0.7s;
+ }
+
+nav ul li{
+  list-style: none;
+  display: inline;
+  float: left;
+  padding: 10px 30px 10px 30px;
+  height: 20px;
+  width: auto;
+  margin-top: 4%;
+  transition: all 0.7s;
+}
+
+nav ul {
+  margin-left:  600px;
+}
+
+
+nav ul li .link{
+  text-decoration: none;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.6em;
+  color: #025159;
+
+}
+
+nav ul li .link:hover{
+  font-weight: 700;
+}
+
+/*SCroool*/
+.black{
+  background-color: rgba(21,21,21);
+  height: 60px;
+  padding-top: 13px;
+  position: fixed;
+}
+.black ul li{
+  padding: 10px 30px 10px 30px;
+  box-sizing: border-box;
+  height: 10px;
+  margin-top: -1%;
+}
+
+.black a{
+  color: #fff;
+  border-bottom: 0px;
+  text-decoration: none;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-size: 1.6em;
+
+
+}
+
+.black a:hover{
+  font-weight: 600;
+}
+
+.black #logo img{
+  height: 50px;
+}
+
+.active {
+  font-weight: 700;
+
+}
+
+
+header #teks{
+  display: block;
+  width: 700px;
+  height: 150px;
+  text-align: center;
+  position: absolute;
+  top: 38%;
+  left: 32%;
+
+}
+
+#teks p{
+   font-family:'Krona One', sans-serif;;
+    font-size: 2.2em;
+    color: #D35400;
+    text-transform: uppercase;
+
+}
+#teks hr{
+  width: 57%;
+  text-align: center;
+  margin-left: 22%;
+  margin-top: 15px;
+  border: 1px solid #F5AB35;
+}
+
+#teks #kata{
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #F5AB35;
+  text-transform: uppercase;
+  position: absolute;
+  left: 28%;
+  top: 28%;
+  font-size: 1.7em;
+}
+
+header #button{
+  position: absolute;
+  display: block;
+  height: 20px;
+  width: 100px;
+  background: #F9690E;
+  color: #fff;
+  padding: 15px;
+  top: 54%;
+  left: 52%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 5px;
+  transition: all 0.5s;
+  font-size: 1.3em;
+}
+
+header #button:hover{
+  background: #E87E04;
+  border-radius: 20px;
+  color: #fff;
+}
+
+#about{
+  height: 450px;
+  width: 100%;
+  background: #f2efe9;
+  position: relative;
+  color: #333;
+
+}
+
+#about img{
+  width: 550px;
+  position: absolute;
+  left: 57%;
+  top: -20px;
+
+}
+
+
+#about  #img2{
+  width: 325px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+
+}
+
+#tulis{
+  display: block;
+  height: 200px;
+  width: 500px;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+
+}
+
+
+#tulis h2{
+  font-family:'Krona One', sans-serif;
+  font-size: 20px;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  color: #333;
+}
+
+#tulis p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.6em;
+  text-align: justify;
+}
+
+/*News*/
+#news{
+  height: 770px;
+  background-color: #f7fff7;
+  position: relative;
+  margin-bottom: %;
+
+
+}
+
+#news hr{
+  width: 15%;
+  margin-left: 42%;
+  margin-top: 3%;
+  border: 2.5px solid #f2efe9;
+
+}
+
+#news #title {
+  font-family:  'Ubuntu Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-left: 40%;
+  margin-top: 2%;
+  color: #333;
+}
+
+/*----Hint------*/
+
+#hint{
+  width: 60%;
+  height: 65%;
+  box-sizing: border-box;
+  margin-top: 3.5%;
+  margin-left: 20%;
+  background-color: #fff;
+  display: grid;
+  background: #f9f9f9;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  box-shadow:  1px 5px 37px -3px rgba(0,0,0,0.62);
+
+}
+
+#hint #image-1{
+  grid-row: 1;
+  grid-column: 1;
+  background: url(../img/Aling-Aling-gede-Astika.jpg);/*https://d22ir9aoo7cbf6.cloudfront.net/wp-content/uploads/sites/4/2016/10/Aling-Aling-gede-Astika.jpg*/
+  background-size:cover;
+  background-position: center;
+}
+
+
+
+
+#hint #image-2{
+  grid-row: 1;
+  grid-column: 3;
+  background: url(../img/KomuneResort&Beach.jpg);/*https://cdn.theculturetrip.com/wp-content/uploads/2017/04/12144633583_b7bfcc5a91_k-1024x410.jpg*/
+  background-size: cover;
+  background-position: right;
+
+}
+
+
+
+#hint #image-3{
+  grid-row: 2;
+  grid-column: 2;
+  background: url(../img/UlunDanuTemple.jpg);/*https://cdn.theculturetrip.com/wp-content/uploads/2017/04/2573064842_a980ff74b0_o.jpg*/
+  background-size: cover;
+  background-position: left;
+
+}
+
+#hint #teks-1{
+  grid-row: 2;
+  grid-column: 1;
+  position: relative;
+  padding: 8% 12% 10% 8%;
+}
+
+#hint #teks-1:after{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-top:2px solid #f9f9f9;
+  border-bottom:0px solid black;
+  border-left:  0px solid black;
+  border-right: 2px solid #f9f9f9;
+  top: 75%;
+  right: -2.5%;
+  content: '';
+  transform: rotate(45deg);
+  background-color:#f9f9f9;
+
+}
+
+
+#hint #teks-2{
+  grid-row: 1;
+  grid-column: 2;
+  position: relative;
+    padding: 8% 12% 10% 8%;
+}
+
+#hint #teks-2:after{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-top:2px solid #f9f9f9;
+  border-bottom:0px solid black;
+  border-left:  0px solid black;
+  border-right: 2px solid #f9f9f9;
+  top: 15%;
+  left: -2.5%;
+  content: '';
+  transform: rotate(225deg);
+  background-color:#f9f9f9;
+
+}
+
+#hint #teks-2 {
+}
+
+
+#hint #teks-3{
+
+  position: relative;
+  grid-row: 2;
+  grid-column:3;
+    padding: 8% 8% 10% 8%;
+
+}
+
+
+
+#hint #teks-3:after{
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-top:2px solid #f9f9f9;
+  border-bottom:0px solid black;
+  border-left:  0px solid black;
+  border-right: 2px solid #f9f9f9;
+  top: -2.5%;
+  left: 15%;
+  content: '';
+  transform: rotate(315deg);
+  background-color:#f9f9f9;
+
+}
+
+
+#hint  .judul{
+  font-family:'Ubuntu Condensed', sans-serif;
+   font-style: normal;
+  text-align: center;
+  font-size: 1.916em;
+  margin-bottom: 5px;
+  color: #3d3d3d;
+}
+
+
+#hint .isi{
+  font-size: 1.35em;
+  text-align: center;
+  margin-top: 10%;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+
+
+}
+
+/*Beast*/
+
+#best{
+  height: 800px;
+  background-color: #f2efe9;
+  position: relative;
+
+}
+
+#best #text{
+  display: block;
+  height: 20%;
+  width: 40%;
+  text-align:center;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+}
+
+#best #text h3{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-transform: uppercase;
+  font-size:2.08em;
+  margin-bottom: 2%;
+  color: #3d3d3d;
+}
+
+#best #text hr{
+  width: 70%;
+  margin-left: 15%;
+  border: 1px solid #bfbfbd;
+}
+
+#best #text p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.4em;
+  margin-top: 2.5%;
+}
+
+#best #imageB{
+  display: grid;
+  height: 60%;
+  width: 70%;
+  background: ;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5%;
+
+}
+
+#best #imageB .image1{
+  grid-row: 1;
+  grid-column: 1;
+  z-index: ;
+  background : url(../img/beast/batur.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  transition: all  0.5s;
+}
+
+#best #imageB .image2{
+  grid-row: 2;
+  grid-column: 2;
+  z-index: ;
+  background : url(../img/beast/monkey.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  transition: all  0.5s;
+}
+
+#best #imageB .image3{
+  grid-row: 1;
+  grid-column: 2;
+  z-index: ;
+  background : url(../img/beast/kuta.jpg);
+  background-size: 100% 100%;
+  position:relative;
+  transition: all  0.5s;
+
+}
+#best #imageB .image4{
+  grid-row: 1;
+  grid-column: 3;
+  z-index: ;
+  background : url(../img/beast/pura-ulun.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  transition: all  0.5s;
+}
+
+#best #imageB .image5{
+  grid-row: 2;
+  grid-column: 1;
+  z-index: ;
+  background : url(../img/beast/tanahLot.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  transition: all  0.5s;
+}
+
+#best #imageB .image6{
+  grid-row: 2;
+  grid-column: 3;
+  z-index: ;
+  background : url(../img/beast/Ubud.jpg);
+  background-size: 100% 100%;
+  position: relative;
+  transition: all  0.5s;
+}
+
+#best #imageB :hover{
+ box-shadow: 0px 4px 57px 6px rgba(0,0,0,0.24);
+}
+
+#best #imageB .verticalText{
+  position:absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 8px 0 ;
+  background-color: rgba(37,34,34,0.6);
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  color: #f2f2f2;
+  text-align: center;
+  display: none;
+}
+
+#budaya{
+  width: 100%;
+  height: 600px;
+  box-sizing: border-box;
+  padding: 8% 5% 3% 5%;
+  position: relative;
+  background:
+   /* top, transparent red, faked with gradient */
+   linear-gradient(
+     rgba(28, 28, 28, 0.8),
+     rgba(28, 28, 28, 0.8)
+   ),
+   /* bottom, image */
+   url(../img/image.jpg);
+   background-size: 100%   100%;
+
+}
+
+
+#budaya>#tulisan {
+  display: block;
+  margin-left: 50%;
+}
+
+#budaya>#tulisan>h3{
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  text-transform: uppercase;
+  font-size: 2.16em;
+
+}
+
+#budaya>#tulisan>p{
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  margin-top: -20px;
+  margin-left: -8px;
+}
+#budaya>#tulisan>hr{
+  width: 300px;
+}
+
+#budaya>#isi_bud{
+  display: grid;
+  position: absolute;
+  height: 275px;
+  width: 500px;
+  margin-top: 1%;
+  left: 50%;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#budaya>#isi_bud>.isi_bud_text>h2{
+  font-size: 1.5em;
+  margin-bottom:  1%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+
+}
+
+#budaya>#isi_bud>.isi_bud_text>p{
+  font-size: 1.3em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+}
+
+/*------Ragam-----*/
+
+#ragam{
+  height: 1800px;
+  background-color: #f2efe9;
+  position: relative;
+}
+
+#ragam #judul{
+  position: absolute;
+  display: block;
+  height: 250px;
+  width: 400px;
+  top: 2%;
+  left: 35%;
+}
+
+#ragam #judul h3{
+  text-transform: uppercase;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 2.4em;
+  text-align: center;
+  color: #3d3d3d;
+}
+
+#ragam #judul hr{
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 1px solid #bfbfbd;
+}
+
+#ragam #judul p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.6em;
+  margin-top: 1.5%;
+  text-align: center;
+}
+
+
+/*--Article Dance--*/
+
+.box{
+  display: grid;
+  position: absolute;
+  height: 30%;
+  width: 90%;
+  background: pink;
+  top: 10%;
+  left: 6%;
+  grid-template-columns: 38% 62%;
+
+}
+
+
+#tari .gambar{
+  background-image:url(../img/tariLegong.jpg);
+  background-size:cover;
+  background-position: 60% ;
+
+}
+
+
+#tari .article{
+  display: grid;
+  grid-template-rows: 30% 70%;
+  background-color: #f9f9f9;
+  position: relative;
+  padding-left: 6%;
+}
+
+#tari .article .tilte{
+
+}
+
+#tari .article .tilte h3{
+  font-size:5em;
+  font-weight: normal;
+  color:#3d3d3d;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  margin-bottom: 1%;
+}
+
+#tari .article .tilte p{
+  font-size: 1.5em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#tari .article .tilte hr{
+  border: 1px solid #bfbfbf;
+  width: 85%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+#tari .article .image .images{
+  display: grid;
+  height: 60%;
+  width: 90%;
+
+  position: absolute;
+  left: 6%;
+  top: 35%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+}
+
+#tari .article .images .image1{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#tari .article .images .image2{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#tari .article .images .image3{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#tari .article .image .ilustrasion{
+  background: url(../img/barong.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+#tari .article .image .ilustrasion2{
+  background: url(../img/kecak.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+#tari .article .image .ilustrasion3{
+  background: url(../img/Tari_Pendet.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+#tari .article .image .text{
+  padding: 6% 8% 6% 8%;
+  background-color: #fff;
+
+}
+
+#tari .article .image .text p{
+  font-size:1.4em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#tari .article .image .text h1{
+  font-size: 2.6em;
+  font-weight: normal;
+  margin-bottom:6%;
+  color: #3d3d3d;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/*--Article Music--*/
+
+#music{
+  display: grid;
+  position: absolute;
+  height: 30%;
+  width: 90%;
+  background: pink;
+  top: 43%;
+  left: 6%;
+  grid-template-columns: 62% 38%;
+}
+
+
+#music .gambar{
+  background-image:url(../img/alat-musik-bali.jpg);
+  background-size:cover;
+  background-position:8% ;
+
+}
+
+
+#music .article{
+  display: grid;
+  grid-template-rows: 30% 70%;
+  background-color: #f9f9f9;
+  position: relative;
+  padding-left: 6%;
+}
+
+#tari .article .tilte{
+
+}
+
+#music .article .tilte h3{
+  font-size:5em;
+  font-weight: normal;
+  color:#3d3d3d;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  margin-bottom: 1%;
+}
+
+#music .article .tilte p{
+  font-size: 1.5em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#music .article .tilte hr{
+  border: 1px solid #bfbfbf;
+  width: 85%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+#music .article .image .images{
+  display: grid;
+  height: 60%;
+  width: 90%;
+
+  position: absolute;
+  left: 6%;
+  top: 35%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+}
+
+#music .article .images .image1{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#music .article .images .image2{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#music .article .images .image3{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#music .article .image .ilustrasion{
+  background: url(../img/Gamelan-Bali.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+#music .article .image .ilustrasion2{
+  background: url(../img/jegongBambu.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+#music .article .image .ilustrasion3{
+  background: url(../img/rindik.jpg);
+  background-size: cover;
+  background-position: 75%;
+}
+
+#music .article .image .text{
+  padding: 6% 8% 6% 8%;
+  background-color: #fff;
+
+}
+
+#music .article .image .text p{
+  font-size:1.4em;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#music .article .image .text h1{
+  font-size: 2.6em;
+  font-weight: normal;
+  margin-bottom:6%;
+  color: #3d3d3d;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
