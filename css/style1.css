@@ -625,7 +625,7 @@ header #button:hover{
 /*------Ragam-----*/
 
 #ragam{
-  height: 1800px;
+  height: 2000px;
   background-color: #f2efe9;
   position: relative;
 }
@@ -668,10 +668,10 @@ header #button:hover{
 .box{
   display: grid;
   position: absolute;
-  height: 30%;
+  height: 28%;
   width: 90%;
   background: pink;
-  top: 10%;
+  top: 8.5%;
   left: 6%;
   grid-template-columns: 38% 62%;
 
@@ -787,10 +787,10 @@ header #button:hover{
 #music{
   display: grid;
   position: absolute;
-  height: 30%;
+  height: 28%;
   width: 90%;
   background: pink;
-  top: 43%;
+  top: 39%;
   left: 6%;
   grid-template-columns: 62% 38%;
 }
@@ -904,10 +904,10 @@ header #button:hover{
 #UpacAdat{
   display: grid;
   position: absolute;
-  height: 30%;
+  height: 28%;
   width: 90%;
   background: pink;
-  top: 76%;
+  top: 70%;
   left: 6%;
   grid-template-columns: 38% 62%;
 }
