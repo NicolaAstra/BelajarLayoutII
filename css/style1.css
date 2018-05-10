@@ -134,7 +134,7 @@ nav ul li .link:hover{
 
 .active {
   font-weight: 700;
-
+  color: #4f4f4f;
 }
 
 
@@ -1010,4 +1010,98 @@ header #button:hover{
   margin-bottom:6%;
   color: #3d3d3d;
   font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+
+  /*----Section Want-------*/
+#want{
+  height: 550px;
+    background-color: #f7fff7;
+  position: relative;
+}
+
+#want #text{
+  display: block;
+  position: absolute;
+  height: 60%;
+  width: 55%;
+  margin: auto;
+  left: 22%;
+  top: 20%;
+  text-align:center;
+
+}
+
+#want #text h2{
+  text-transform: uppercase;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size:4.2em;
+}
+
+#want #text p{
+  margin-top:10%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.8em;
+}
+
+#want #button #button1{
+  height: 50px;
+  width: 120px;
+  background: #F9690E;
+  color: #fff;
+  border: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 30px;
+  font-size: 1.5em;
+  font-weight: 700;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+
+#want #button #button2{
+  height: 50px;
+  width: 120px;
+  background: #fff;
+  color: #F9690E;
+  border: 2px SOLID #F9690E;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 30px;
+  font-size: 1.5em;
+  font-weight: 700;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
+
+#footer{
+  display: grid;
+  height: 100px;
+  background-color:rgba(21,21,21);
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 0;
+}
+
+#footer #copy {
+  color: white;
+
+  font-size: 1.8em;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+#footer #copy p{
+  margin: 10% 18%;
+  margin-bottom: 0;
+}
+
+#footer #copy span{
+  color: #515356;
+}
+
+#footer #gambar img{
+  height: 55PX;
+  margin-top: 6%;
+  margin-left: 35%;
+  margin-bottom: 0;
 }
